@@ -88,31 +88,31 @@ export default function Home() {
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Bathrooms</p>
-                <p className='text-[#200955] font-semibold'>4</p>
+                <p className='text-[#200955] font-semibold'>6</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Beds</p>
                 <p className='text-[#200955] font-semibold'>8</p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Sleeps</p>
-                <p className='text-[#200955] font-semibold'>12</p>
+                <p className='text-[#200955] font-semibold'>14</p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Property type</p>
                 <p className='text-[#200955] font-semibold'>House</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Living space</p>
-                <p className='text-[#200955] font-semibold'>2,589 <sub>sq ft</sub></p>
+                <p className='text-[#200955] font-semibold'>3,589 <sub>sq ft</sub></p>
               </div>            <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Lot size</p>
-                <p className='text-[#200955] font-semibold'>4,791<sub>sq ft</sub></p>
+                <p className='text-[#200955] font-semibold'>17,859<sub>sq ft</sub></p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Year built</p>
-                <p className='text-[#200955] font-semibold'>2023</p>
+                <p className='text-[#200955] font-semibold'>1990</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Location</p>
-                <p className='text-[#200955] font-semibold'>Panama City Beach, Florida</p>
+                <p className='text-[#200955] font-semibold'>Sedona, Arizona</p>
               </div>
             </div>
             <br />
@@ -176,8 +176,8 @@ export default function Home() {
 
             <p id="section2" ref={section2Ref} className='text-[27px] font-bold text-black -leading-[0.75px] '>Overview</p>
 
-            <p className='pt-2'>With emerald waters, white sand beaches, and famous southern sunshine just minutes from your doorstep in Panama City Beach, Whitefin welcomes guests year-round on their Gulf Coast getaway. Built in 2022, this newly finished and freshly upgraded home boasts modern amenities and entertainment options to help guests relax during their stay. When getting ready for a day at the beach, travelers to Whitefin can take the property’s available bicycles for a spin or grab a number of different beach essentials and head out to soak up that southern Florida sun. After returning from a long day, sun-drenched and happy, rinse off in Whitefin’s outdoor beach shower and lounge on the private backyard space before cooking up your favorite meal on the property’s own barbeque grill. For indoor alternatives, guests staying at Whitefin can entertain around the kitchen bar, laugh over their family-favorite board games, or compete over a game of pool. This home has it all - privacy, modern upgrades, beach essentials, and most importantly, it’s situated on one of the best stretches of beach in the world.</p>
-            <p className='pt-4'>Panama City Beach, Florida is a popular vacation destination, particularly during the spring and summer months when tourists flock to the area for its sunny beaches and lively nightlife. The area is known for its 27 miles of pristine white sand beaches, which are perfect for swimming, sunbathing, and watersports like jet skiing and parasailing. Families with children will appreciate the many kid-friendly attractions, such as the Gulf World Marine Park and Shipwreck Island Waterpark.</p>
+            <p className='pt-2'>Surrounded by the world-famous Sedona Red Rocks, Terracotta, is your dream desert vacation home. This property provides great outdoor space to take in the mountainous views, including a covered private balcony for guests to soak up the warm climate and stay cool under the bright Arizona sun. There’s room for everyone here - with a total of five bedrooms, a spacious living room to cozy up next to the indoor fireplace, and an attached garage with plenty of parking availability to accommodate large groups. Terracotta is conveniently located within Sedona and only a few minutes from Red Rock State Park, Slide Rock State park, and Devil’s Bridge photo spot, among others.</p>
+            <p className='pt-4'>Sedona, Arizona, a small southwestern city located within the Coconino National Forest has quickly become one of the top travel destinations in the United States. Though many travelers visit Sedona as part of their larger southwestern road trip, which often includes nearby places like Lake Powell, Horseshoe Bend, and the Grand Canyon, Sedona has become its own hub for all types of unique activities. The city is well known for its spiritual welleness and metaphsycial communities that welcome travelers looking for healing and meditation, among others. Sedona is also home to numerous adventure sports, like Jeep tours and mountain biking, among the famous red rock formations. Whether Sedona is part of a larger roadtrip, or a vacation destination in itself, travelers here are in for a treat once they arrive at this majestic desert city.</p>
             <p className='pt-4'>In addition to its beaches and family-friendly attractions, Panama City Beach is also a popular destination for young adults. The area is home to a number of nightclubs and beachside bars, which host events and parties throughout the summer. </p>
             <p className='pt-4'>For a more laid-back vacation, visitors can enjoy a leisurely bike ride along the beach, explore the local nature trails, or simply relax and soak up the sun. The area is also home to several championship golf courses, which are popular with golf enthusiasts looking to hone their skills on the green. With so much to see and do, it's no wonder that Panama City Beach continues to be a popular vacation destination for visitors of all ages and interests.</p>
             <p className='font-bold pt-4'>Expected Payout Date: November 2023  </p>
@@ -221,7 +221,7 @@ export default function Home() {
             <div onClick={() => setAverageOccupancy(!averageOccupancy)} className='flex mt-2 cursor-pointer justify-between'>
               <div>
                 <p className=' font-semibold text-[1.1rem]'>Average occupancy<sup cla>(1)</sup></p>
-                <p className='text-[1.4rem]'>$1,115.00</p>
+                <p className='text-[1.4rem]'>53$</p>
               </div>
               <IoMdArrowDropdown fontSize={24} />
 
@@ -232,7 +232,7 @@ export default function Home() {
             <div onClick={() => setAverageRevenue(!averageRevenue)} className='flex mt-2 cursor-pointer justify-between'>
               <div>
                 <p className=' font-semibold text-[1.1rem]'>Average revenue<sup cla>(1)</sup></p>
-                <p className='text-[1.4rem]'>$13,415.00</p>
+                <p className='text-[1.4rem]'>$14,490.00</p>
               </div>
               <IoMdArrowDropdown fontSize={24} />
             </div>
@@ -260,7 +260,7 @@ export default function Home() {
 
             <p id="section4" ref={section4Ref} className='text-[27px] font-bold text-black -leading-[0.75px] pb-1'>The market</p>
             <MarketMap />
-            <p className='text-[#8f8f8f] py-2'>Panama City Beach, Florida</p>
+            <p className='text-[#8f8f8f] py-2'>Sedona,Arixona</p>
 
 
             <div onClick={() => setMarketGrade(!marketGrade)} className='flex mt-2 cursor-pointer justify-between'>
@@ -273,7 +273,7 @@ export default function Home() {
                   <FiAlertCircle fontSize={24} />
                   <p>Market grade</p>
                 </div>
-                <p className=' h-9 w-9 text-white items-center flex justify-center rounded-full bg-black'>B</p>
+                <p className=' h-9 w-9 text-white items-center flex justify-center rounded-full bg-black'>B+</p>
               </div>
               <div className='flex pt-4 justify-between items-center'>
                 <div className='flex w-72 items-center gap-x-6'>
